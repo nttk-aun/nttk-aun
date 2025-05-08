@@ -18,18 +18,11 @@
     </span>
 </p>
 
-<style>
-@keyframes slide-in-right {
-  0% {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-</style>
+<p align="center">
+  <img src="https://img.shields.io/github/followers/nttk-aun?label=Followers&style=social" />
+  <img src="https://img.shields.io/github/stars/nttk-aun?label=Stars&style=social" />
+  <img src="https://komarev.com/ghpvc/?username=nttk-aun&label=Profile%20views&color=0e75b6&style=flat" />
+</p>
 
 🌱 I'm currently learning .NET + Angular  
 🔭 I'm working on backend REST API using CodeIgniter 4  
