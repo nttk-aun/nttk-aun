@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/nttk-aun/nttk-aun/blob/main/assets/dev-gif-new.gif?raw=true" style="width: 100%; max-width: 1000px; height: 800px; max-height: 800px;" />
+  <img src="https://github.com/nttk-aun/nttk-aun/blob/main/assets/dev-gif.gif?raw=true" style="width: 100%; max-width: 1000px; height: 800px; max-height: 800px;" />
 </p>
 
 
