@@ -42,22 +42,21 @@
 
 ✍ You can find my resume here: [Nonthawat Thongkham Resume](https://github.com/nttk-aun)
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nttk-aun&show_icons=true&theme=radical" />
-</p>
+<h2 align="center">📊 GitHub Stats</h2>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nttk-aun&show_icons=true&theme=radical" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nttk-aun&layout=compact&theme=radical" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nttk-aun&theme=radical" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=nttk-aun&theme=radical" />
-</p>
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <img src="https://github-readme-stats.vercel.app/api?username=nttk-aun&show_icons=true&theme=radical" />
+        <br><br>
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=nttk-aun&theme=radical" />
+      </td>
+      <td width="50%" align="center">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nttk-aun&layout=compact&theme=radical" />
+        <br><br>
+        <img src="https://github-profile-trophy.vercel.app/?username=nttk-aun&theme=radical&row=2&column=3" />
+      </td>
+    </tr>
+  </table>
+</div>
