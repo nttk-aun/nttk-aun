@@ -1,14 +1,18 @@
-<div align="center" style="display: flex; justify-content: center; align-items: center;">
-  <div style="margin: 0 10px; font-size: 40px;">_________________________________________________________________________________________________________________________</div>
-  <img src="https://github.com/nttk-aun/nttk-aun/blob/main/assets/dev-gif.gif?raw=true" style="width: 100%; max-width: 900px; height: 710px; " />
-  <div style="margin-top: 0 10px; font-size: 40px ;
-  ">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</div>
+<div align="center">
+  
+  <div style="font-size:40px;">_________________________________________________________________________________________________________________________</div>
+  
+  <img src="https://github.com/nttk-aun/nttk-aun/blob/main/assets/dev-gif.gif?raw=true" style="width: 100%; max-width: 900px; height: 710px;" />
+  
+  <div style="font-size:40px;">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</div>
+
 </div>
 
+<h1 align="center">Hi 👋 I'm Nonthawat Thongkham</h1>
 
-# Hi 👋 I'm Nonthawat Thongkham
-<div style="text-align: center; border-bottom: 1px solid #cccccc; margin-bottom: 10px;"></div>
-<div style="font-family: 'Courier New', monospace; background: linear-gradient(to right, #ff6b6b, #4ecdc4); -webkit-background-clip: text; color: transparent; font-weight: bold; font-size: 18px;">✨ junior developer ✨</div>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&center=true&vCenter=true&width=435&lines=✨+junior+developer+✨" alt="Typing SVG" />
+</div>
 
 🌱 I'm currently learning .NET + Angular  
 🔭 I'm working on backend REST API using CodeIgniter 4  
