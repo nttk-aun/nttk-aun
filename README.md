@@ -6,7 +6,9 @@
 </div>
 
 
-# Hi there 👋
+# Hi 👋 I'm Nonthawat Thongkham
+<div style="border-bottom: 1px solid #cccccc; margin-bottom: 10px;"></div>
+<div style="font-family: 'Courier New', monospace; background: linear-gradient(to right, #ff6b6b, #4ecdc4); -webkit-background-clip: text; color: transparent; font-weight: bold; font-size: 18px;">✨ junior developer ✨</div>
 
 🌱 I'm currently learning .NET + Angular  
 🔭 I'm working on backend REST API using CodeIgniter 4  
