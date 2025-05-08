@@ -37,6 +37,11 @@
 - 📝 Developed PL/pgSQL functions for integration with Jasper Report
 - 🎨 Basic experience in UI/UX design with Figma to meet project requirements
 
+
+📫 Reach out to me: nonthawat.thongkham@gmail.com
+
+✍ You can find my resume here: [Nonthawat Thongkham Resume](https://github.com/nttk-aun)
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=nttk-aun&show_icons=true&theme=radical" />
 </p>
