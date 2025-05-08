@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="https://github.com/nttk-aun/nttk-aun/blob/main/assets/dev-gif.gif?raw=true" style="width: 100%; max-width: 1000px; height: 700px; max-height: 700px;" />
+  <div style="background: linear-gradient(to right, #8e2de2, #4a00e0); padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <img src="https://github.com/nttk-aun/nttk-aun/blob/main/assets/dev-gif.gif?raw=true" style="width: 100%; max-width: 1000px; height: 700px; max-height: 700px; border-radius: 8px;" />
+  </div>
 </p>
 
 
