@@ -66,7 +66,7 @@
         <br>GitHub
       </td>
       <td align="center" width="96">
-        <a href="https://line.me/ti/p/oan_bibi" target="_blank">
+        <a href="https://line.me/ti/p/~oan_bibi" target="_blank">
           <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/LINE_logo.svg" width="48" height="48" alt="Line" />
         </a>
         <br>Line
