@@ -1,9 +1,11 @@
 <svg width="100%" height="100" viewBox="0 0 600 100" xmlns="http://www.w3.org/2000/svg">
   <style>
     .text {
-      font-family: 'Courier New', monospace;
-      font-size: 32px;
-      fill: #4ecdc4;
+      font-family: 'Fira Code', 'Courier New', monospace;
+      font-size: 38px;
+      fill: #82AAFF;
+      font-weight: 600;
+      text-shadow: 0 0 5px rgba(130, 170, 255, 0.5);
     }
 
     .cursor {
@@ -22,12 +24,14 @@
     .typewriter {
       overflow: hidden;
       white-space: nowrap;
-      border-right: 3px solid #4ecdc4;
+      border-right: 3px solid #c792ea;
       width: 0;
       animation: typing 3s steps(16, end) forwards;
     }
   </style>
 
+  <rect width="100%" height="100%" fill="#011627" rx="5" ry="5"/>
+  
   <foreignObject x="0" y="0" width="100%" height="100">
     <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; justify-content: center; align-items: center; height: 100%;">
       <div class="text typewriter">junior developer<span class="cursor">|</span></div>
