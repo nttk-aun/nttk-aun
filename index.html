@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Night Owl Dev - 16-bit Animation</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <style>
+    body {
+      background: linear-gradient(135deg, #0f0721 0%, #0d1117 100%);
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Courier New', monospace;
+    }
+    
+    .room {
+      position: relative;
+      width: 900px;
+      height: 600px;
+      background: #0a0a18;
+      border-radius: 20px;
+      box-shadow: 0 0 80px rgba(76, 29, 149, 0.3), 0 0 0 8px #111;
+      overflow: hidden;
+      image-rendering: pixelated;
+    }
+    
+    /* เฟอร์นิเจอร์ในห้อง */
+    .desk {
+      position: absolute;
+      bottom: 60px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 600px;
+      height: 20px;
+      background: #1a1a2e;
+      border-radius: 4px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+    
+    .desk::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      width: 300px;
+      height: 40px;
+      background: #13131f;
+      border-radius: 4px;
+      z-index: -1;
+    }
+    
+    .wall-shelf {
+      position: absolute;
+      top: 30px;
+      right: 40px;
+      width: 120px;
+      height: 10px;
+      background: #1a1a2e;
+      border-radius: 2px;
+    }
+    
+    .plant {
+      position: absolute;
+      top: 0;
+      right: 70px;
+      width: 30px;
+      height: 30px;
+      color: #2d8a63;
+      font-size: 24px;
+      text-align: center;
+    }
+    
+    /* Night Owl Dev */
+    .pixel-dev {
+      position: absolute;
+      left: 50%;
+      bottom: 80px;
+      transform: translateX(-50%);
+      z-index: 3;
+      width: 120px;
+      height: 180px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      pointer-events: none;
+    }
+    
+    .dev-head {
+      width: 48px;
+      height: 48px;
+      background: #181820;
+      border: 4px solid #2d2d3a;
+      border-radius: 8px;
+      margin-bottom: 2px;
+      box-shadow: 0 0 8px rgba(76, 29, 149, 0.4);
+      position: relative;
+      image-rendering: pixelated;
+    }
+    
+    /* ฮู้ด */
+    .dev-head::before {
+      content: "";
+      position: absolute;
+      top: -10px;
+      left: -8px;
+      right: -8px;
+      height: 20px;
+      background: #181820;
+      border-radius: 10px 10px 0 0;
+      border: 4px solid #2d2d3a;
+      border-bottom: none;
+    }
+    
+    .dev-body {
+      width: 60px;
+      height: 70px;
+      background: #181820; /* สีฮู้ดดำ */
+      border-radius: 10px 10px 6px 6px;
+      margin-bottom: 2px;
+      border: 3px solid #2d2d3a;
+      image-rendering: pixelated;
+    }
+    
+    .dev-arms {
+      display: flex;
+      justify-content: space-between;
+      width: 90px;
+      margin-top: -30px;
+      margin-bottom: 0;
+    }
+    
+    .dev-arm {
+      width: 18px;
+      height: 45px;
+      background: #181820; /* สีฮู้ดดำ */
+      border-radius: 6px;
+      border: 2px solid #2d2d3a;
+      image-rendering: pixelated;
+      transition: transform 0.1s;
+    }
+    
+    .dev-arm.left.typing {
+      transform: rotate(-18deg) translateY(8px) scaleY(0.95);
+    }
+    
+    .dev-arm.right.typing {
+      transform: rotate(18deg) translateY(8px) scaleY(0.95);
+    }
+    
+    .dev-legs {
+      display: flex;
+      justify-content: space-between;
+      width: 48px;
+      margin-top: 0;
+    }
+    
+    .dev-leg {
+      width: 12px;
+      height: 32px;
+      background: #23233a;
+      border-radius: 4px;
+      border: 2px solid #2d2d3a;
+      image-rendering: pixelated;
+    }
+    
+    /* เก้าอี้ */
+    .chair {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 20px;
+      background: #1a1a2e;
+      border-radius: 6px;
+      z-index: 1;
+    }
+    
+    .chair::after {
+      content: "";
+      position: absolute;
+      bottom: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 20px;
+      height: 20px;
+      background: #13131f;
+      border-radius: 4px;
+    }
+    
+    /* Keyboard */
+    .keyboard {
+      width: 90px;
+      height: 18px;
+      background: #0a0a18;
+      border: 3px solid #4c1d95;
+      border-radius: 4px;
+      margin-top: -8px;
+      margin-bottom: 2px;
+      position: relative;
+      z-index: 2;
+      box-shadow: 0 0 8px rgba(76, 29, 149, 0.5);
+      image-rendering: pixelated;
+    }
+    
+    .keyboard::after {
+      content: "";
+      display: block;
+      width: 80px;
+      height: 4px;
+      background: #4c1d95;
+      border-radius: 2px;
+      position: absolute;
+      left: 5px;
+      top: 10px;
+      opacity: 0.3;
+    }
+    
+    /* Monitors */
+    .monitor {
+      position: absolute;
+      background: #0a0a18;
+      border: 4px solid #4c1d95;
+      border-radius: 6px;
+      box-shadow: 0 0 30px rgba(76, 29, 149, 0.3), 0 0 0 4px #13131f;
+      overflow: hidden;
+      z-index: 1;
+      image-rendering: pixelated;
+    }
+    
+    .m1 { left: 200px; top: 100px; width: 220px; height: 140px; }
+    .m2 { left: 450px; top: 80px; width: 240px; height: 150px; }
+    .m3 { left: 320px; top: 250px; width: 260px; height: 130px; }
+    .m4 { left: 600px; top: 240px; width: 180px; height: 120px; }
+    
+    .monitor .screen {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, rgba(76, 29, 149, 0.2) 0%, rgba(16, 185, 129, 0.1) 100%);
+      color: #10b981; /* สีเขียวสำหรับโค้ด */
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 0.9rem;
+      padding: 10px;
+      box-sizing: border-box;
+      white-space: pre;
+      overflow: hidden;
+      border-radius: 4px;
+      border: none;
+      text-shadow: 0 0 6px rgba(16, 185, 129, 0.7), 0 0 2px #fff;
+      image-rendering: pixelated;
+    }
+    
+    .m2 .screen {
+      color: #ef4444; /* สีแดงสำหรับจอที่ 2 */
+      text-shadow: 0 0 6px rgba(239, 68, 68, 0.7), 0 0 2px #fff;
+      background: linear-gradient(135deg, rgba(76, 29, 149, 0.2) 0%, rgba(239, 68, 68, 0.1) 100%);
+    }
+    
+    .m4 .screen {
+      color: #3b82f6; /* สีฟ้าสำหรับจอที่ 4 */
+      text-shadow: 0 0 6px rgba(59, 130, 246, 0.7), 0 0 2px #fff;
+      background: linear-gradient(135deg, rgba(76, 29, 149, 0.2) 0%, rgba(59, 130, 246, 0.1) 100%);
+    }
+    
+    .zzz {
+      position: absolute;
+      left: 60%;
+      top: 10px;
+      color: #4c1d95;
+      font-size: 2.5rem;
+      display: none;
+      z-index: 10;
+      text-shadow: 0 0 10px #fff, 0 0 20px #4c1d95;
+      image-rendering: pixelated;
+    }
+    
+    /* Head bob */
+    .head-bob {
+      animation: headBob 2s ease-in-out;
+    }
+    
+    @keyframes headBob {
+      0% { transform: translateX(-50%) translateY(0); }
+      30% { transform: translateX(-50%) translateY(20px); }
+      40% { transform: translateX(-50%) translateY(0); }
+      100% { transform: translateX(-50%) translateY(0); }
+    }
+    
+    /* แสงจากจอ */
+    .monitor-glow {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(40px);
+      opacity: 0.15;
+      pointer-events: none;
+    }
+    
+    .glow1 {
+      width: 300px;
+      height: 300px;
+      background: #10b981;
+      left: 200px;
+      top: 100px;
+    }
+    
+    .glow2 {
+      width: 350px;
+      height: 350px;
+      background: #ef4444;
+      left: 450px;
+      top: 80px;
+    }
+    
+    .glow3 {
+      width: 320px;
+      height: 320px;
+      background: #10b981;
+      left: 320px;
+      top: 250px;
+    }
+    
+    .glow4 {
+      width: 280px;
+      height: 280px;
+      background: #3b82f6;
+      left: 600px;
+      top: 240px;
+    }
+  </style>
+</head>
+<body>
+  <div class="room">
+    <!-- แสงจากจอ -->
+    <div class="monitor-glow glow1"></div>
+    <div class="monitor-glow glow2"></div>
+    <div class="monitor-glow glow3"></div>
+    <div class="monitor-glow glow4"></div>
+    
+    <div class="wall-shelf"></div>
+    <div class="plant">🌿</div>
+    <div class="zzz">💤</div>
+    
+    <!-- จอมอนิเตอร์ -->
+    <div class="monitor m1"><div class="screen" id="screen1"></div></div>
+    <div class="monitor m2"><div class="screen" id="screen2"></div></div>
+    <div class="monitor m3"><div class="screen" id="screen3"></div></div>
+    <div class="monitor m4"><div class="screen" id="screen4"></div></div>
+    
+    <div class="desk"></div>
+    <div class="chair"></div>
+    
+    <!-- Night Owl Dev -->
+    <div class="pixel-dev">
+      <div class="dev-head"></div>
+      <div class="dev-body"></div>
+      <div class="dev-arms">
+        <div class="dev-arm left"></div>
+        <div class="dev-arm right"></div>
+      </div>
+      <div class="keyboard"></div>
+      <div class="dev-legs">
+        <div class="dev-leg"></div>
+        <div class="dev-leg"></div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    // ข้อความแต่ละจอ
+    const screens = [
+      [
+        "const nightOwl = require('coding_at_night');",
+        "function developCode() {",
+        "  while(brain.isWorking()) {",
+        "    coffee.drink();",
+        "    if(eyes.areClosed()) {",
+        "      me.wakeUp();",
+        "    }",
+        "  }",
+        "}",
+        "// ต้องทำให้เสร็จก่อนเที่ยงคืน..."
+      ],
+      [
+        "ERROR: CRITICAL",
+        "-------------",
+        "FatigueOverflow at line 42",
+        "CaffeineLevel: LOW",
+        "SleepRequired: TRUE",
+        "",
+        "System will shutdown in 3...2...1..."
+      ],
+      [
+        "// TODO: Night Owl Project",
+        "- [x] Setup environment",
+        "- [x] Create components",
+        "- [ ] Fix all bugs",
+        "- [ ] Deploy to production",
+        "",
+        "Deadline: YESTERDAY"
+      ],
+      [
+        "Terminal> git status",
+        ">> 42 modified files",
+        ">> 3 untracked files",
+        "",
+        "Terminal> git commit -m \"I need sleep\"",
+        ">> Committing changes...",
+        ">> Done. Push before you pass out."
+      ]
+    ];
+
+    let lineIndexes = Array(screens.length).fill(0);
+    let isTyping = true;
+    let typingInterval;
+    let typingFury = false;
+
+    function typeOnScreen(screenId, lines, idx) {
+      const $screen = $(`#screen${screenId}`);
+      if (lineIndexes[screenId-1] >= lines.length) {
+        lineIndexes[screenId-1] = 0;
+        $screen.text('');
+      }
+      let line = lines[lineIndexes[screenId-1]];
+      $screen.append(line + "\n");
+      lineIndexes[screenId-1]++;
+    }
+
+    function typeAllScreens() {
+      for (let i = 1; i <= screens.length; i++) {
+        typeOnScreen(i, screens[i-1], i-1);
+      }
+      // สุ่มว่าจะง่วงหรือไม่
+      if (Math.random() < 0.22) {
+        isTyping = false;
+        setTimeout(sleepyDev, 600);
+      } else {
+        // เปิดโหมดพิมพ์ดุเดือด
+        typingFury = true;
+        $('.dev-arm').addClass('typing');
+        typingInterval = setInterval(() => {
+          $('.dev-arm.left').toggleClass('typing');
+          $('.dev-arm.right').toggleClass('typing');
+        }, 90);
+        setTimeout(() => {
+          clearInterval(typingInterval);
+          $('.dev-arm').removeClass('typing');
+          typingFury = false;
+          setTimeout(typeAllScreens, 1200);
+        }, 800);
+      }
+    }
+
+    function sleepyDev() {
+      $('.zzz').fadeIn(300);
+      $('.pixel-dev').addClass('head-bob');
+      setTimeout(function() {
+        $('.zzz').fadeOut(300);
+        $('.pixel-dev').removeClass('head-bob');
+        setTimeout(function() {
+          isTyping = true;
+          setTimeout(typeAllScreens, 700);
+        }, 300);
+      }, 1800);
+    }
+
+    // เริ่มแอนิเมชัน
+    typeAllScreens();
+  </script>
+</body>
+</html>
