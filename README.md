@@ -48,13 +48,13 @@
   <table>
     <tr>
       <td align="center" width="96">
-        <a href="https://www.facebook.com/your-facebook" target="_blank">
+        <a href="https://www.facebook.com/oan.bibi" target="_blank">
           <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" width="48" height="48" alt="Facebook" />
         </a>
         <br>Facebook
       </td>
       <td align="center" width="96">
-        <a href="https://www.instagram.com/your-instagram" target="_blank">
+        <a href="https://www.instagram.com/oan_bibi/" target="_blank">
           <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" width="48" height="48" alt="Instagram" />
         </a>
         <br>Instagram
@@ -66,7 +66,7 @@
         <br>GitHub
       </td>
       <td align="center" width="96">
-        <a href="https://line.me/ti/p/your-line-id" target="_blank">
+        <a href="https://line.me/ti/p/oan_bibi" target="_blank">
           <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/LINE_logo.svg" width="48" height="48" alt="Line" />
         </a>
         <br>Line
