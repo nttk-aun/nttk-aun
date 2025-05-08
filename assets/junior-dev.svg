@@ -1,38 +1,13 @@
 <svg width="100%" height="100" viewBox="0 0 600 100" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .text {
-      font-family: 'Fira Code', 'Courier New', monospace;
-      font-size: 38px;
-      fill: #d6deeb;
-      font-weight: 600;
-      text-shadow: 0 0 5px rgba(11, 41, 66, 0.2);
-    }
-
-    .cursor {
-      animation: blink 1s step-start infinite;
-    }
-
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 16ch }
-    }
-
-    @keyframes blink {
-      50% { opacity: 0; }
-    }
-
-    .typewriter {
-      overflow: hidden;
-      white-space: nowrap;
-      border-right: 3px solid #7e57c2;
-      width: 0;
-      animation: typing 3s steps(16, end) forwards;
-    }
-  </style>
-
-  <foreignObject x="0" y="0" width="100%" height="100">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; justify-content: center; align-items: center; height: 100%;">
-      <div class="text typewriter">junior developer<span class="cursor">|</span></div>
-    </div>
-  </foreignObject>
+  <text
+    x="50%"
+    y="60%"
+    text-anchor="middle"
+    fill="#fff"
+    font-family="'Fira Code', 'Courier New', monospace"
+    font-size="38"
+    font-weight="600"
+    >
+    junior developer
+  </text>
 </svg>
