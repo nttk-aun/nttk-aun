@@ -24,9 +24,18 @@
   <img src="https://komarev.com/ghpvc/?username=nttk-aun&label=Profile%20views&color=0e75b6&style=flat" />
 </p>
 
-🌱 I'm currently learning .NET + Angular  
-🔭 I'm working on backend REST API using CodeIgniter 4  
-💬 Ask me about PHP / CI4 / Database  
+🌱 I'm currently learning Spring and Spring Boot to enhance my skills  
+🔭 Currently working as a Full Stack Developer using Angular and Next.js  
+💬 Ask me about JavaScript / TypeScript / Angular / Next.js / Database  
+
+**My Experience**
+
+- 🎓 University thesis project: Developed using jQuery, PHP, and CodeIgniter 4 framework
+- 💼 Worked as a Full Stack Developer
+- ⚛️ First job: Built a React project (CMS) as a Frontend Developer
+- 🧑‍💻 Joined the HRMS project as a Full Stack Developer, using Angular, Next.js, and PostgreSQL database
+- 📝 Developed PL/pgSQL functions for integration with Jasper Report
+- 🎨 Basic experience in UI/UX design with Figma to meet project requirements
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=nttk-aun&show_icons=true&theme=radical" />
