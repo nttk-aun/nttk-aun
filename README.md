@@ -10,9 +10,10 @@
 
 <h1 align="center">Hi 👋 I'm Nonthawat Thongkham</h1>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&center=true&vCenter=true&width=435&lines=✨+junior+developer+✨" alt="Typing SVG" />
-</div>
+<p align="center">
+  <img src="https://github.com/nttk-aun/nttk-aun/raw/main/assets/typing.svg" alt="junior developer typing effect" />
+</p>
+
 
 🌱 I'm currently learning .NET + Angular  
 🔭 I'm working on backend REST API using CodeIgniter 4  
