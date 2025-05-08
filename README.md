@@ -32,8 +32,9 @@ Here are some ideas to get you started:
 
 
 <p align="center">
-  <img src="https://github.com/nttk-aun/nttk-aun/blob/main/assets/dev-gif.gif?raw=true" height="40%"/>
+  <img src="https://github.com/nttk-aun/nttk-aun/blob/main/assets/dev-gif.gif?raw=true" style="width: 50%; max-width: 1000px;" />
 </p>
+
 
 # Hi there 👋
 
