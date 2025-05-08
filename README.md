@@ -1,9 +1,10 @@
-<p align="center" style="margin:0; padding:0;">
-  <div style="font-size:30px; line-height:10px;">______________________________________________________________________________________________________</div>
-  <img src="https://github.com/nttk-aun/nttk-aun/blob/main/assets/dev-gif.gif?raw=true" style="width: 100%; max-width: 900px; height: 700px; max-height: 700px;" />
-  <div style="font-size:30px; line-height:10px;">______________________________________________________________________________________________________</div>
+<p align="center">______________________________________________________________________________________________________</p>
+
+<p align="center">
+  <img src="https://github.com/nttk-aun/nttk-aun/blob/main/assets/dev-gif.gif?raw=true" style="width: 100%; max-width: 900px; height: 700px;" />
 </p>
 
+<p align="center">______________________________________________________________________________________________________</p>
 
 
 # Hi there 👋
