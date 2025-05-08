@@ -32,7 +32,7 @@ Here are some ideas to get you started:
 
 
 <p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500"/>
+  <img src="https://github.com/nttk-aun/nttk-aun/blob/main/assets/dev-gif.gif?raw=true" width="500"/>
 </p>
 
 # Hi there 👋
