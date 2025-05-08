@@ -42,6 +42,41 @@
 
 ✍ You can find my resume here: [Nonthawat Thongkham Resume](https://github.com/nttk-aun)
 
+<h2 align="center">🌐 Connect With Me</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="96">
+        <a href="https://www.facebook.com/your-facebook" target="_blank">
+          <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" width="48" height="48" alt="Facebook" />
+        </a>
+        <br>Facebook
+      </td>
+      <td align="center" width="96">
+        <a href="https://www.instagram.com/your-instagram" target="_blank">
+          <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" width="48" height="48" alt="Instagram" />
+        </a>
+        <br>Instagram
+      </td>
+      <td align="center" width="96">
+        <a href="https://github.com/nttk-aun" target="_blank">
+          <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" width="48" height="48" alt="GitHub" />
+        </a>
+        <br>GitHub
+      </td>
+      <td align="center" width="96">
+        <a href="https://line.me/ti/p/your-line-id" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/LINE_logo.svg" width="48" height="48" alt="Line" />
+        </a>
+        <br>Line
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br>
+
 <h2 align="center">📊 GitHub Stats</h2>
 
 <div align="center">
