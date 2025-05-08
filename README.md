@@ -11,7 +11,7 @@
 <h1 align="center">Hi 👋 I'm Nonthawat Thongkham</h1>
 
 <p align="center">
-  <img src="https://github.com/nttk-aun/nttk-aun/raw/main/assets/junior-dev.svg" alt="junior developer typing effect" />
+  <img src="https://github.com/nttk-aun/nttk-aun/blob/main/assets/junior-dev.svg?raw=true" alt="junior developer typing effect" />
 </p>
 
 
