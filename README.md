@@ -106,8 +106,6 @@
         <br>Git Command
       </td>
       <td align="center" width="120">
-      [![JasperReports](https://img.shields.io/badge/JasperReports-3A3A3A?style=for-the-badge&logo=jaspersoft&logoColor=white)](https://community.jaspersoft.com/)
-
   <img src="https://img.shields.io/badge/JasperReports-3A3A3A?style=for-the-badge&logo=jaspersoft&logoColor=white" />
   <br>JasperReports
 </td>
