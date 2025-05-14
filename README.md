@@ -49,55 +49,55 @@
     <tr>
       <td align="center" width="120">
         <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
-        <br>Next.js
+        <br>
       </td>
       <td align="center" width="120">
         <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-        <br>React
+        <br>
       </td>
       <td align="center" width="120">
         <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" />
-        <br>Angular
+        <br>
       </td>
       <td align="center" width="120">
         <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" />
-        <br>Bootstrap
+        <br>
       </td>
     </tr>
     <tr>
       <td align="center" width="120">
         <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" />
-        <br>jQuery
+        <br>
       </td>
       <td align="center" width="120">
         <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-        <br>Tailwind CSS
+        <br>
       </td>
       <td align="center" width="120">
         <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-        <br>TypeScript
+        <br>
       </td>
       <td align="center" width="120">
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-        <br>JavaScript
+        <br>
       </td>
     </tr>
     <tr>
       <td align="center" width="120">
         <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-        <br>MySQL
+        <br>
       </td>
-<td align="center" width="120">
-  <img src="https://img.shields.io/badge/C%23-000000?style=for-the-badge&logo=c-sharp&logoColor=white" />
-  <br>C#
-</td>
+      <td align="center" width="120">
+        <img src="https://img.shields.io/badge/C%23-000000?style=for-the-badge&logo=c-sharp&logoColor=white" />
+        <br>
+      </td>
       <td align="center" width="120">
         <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
-        <br>Postman
+        <br>
       </td>
       <td align="center" width="120">
         <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-        <br>Figma
+        <br>
       </td>
     </tr>
     <tr>
