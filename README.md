@@ -106,9 +106,11 @@
         <br>Git Command
       </td>
       <td align="center" width="120">
-        <img src="https://img.shields.io/badge/JasperReports-3A3A3A?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMu/b3JnLzIwMDAvc3ZnIj48/ZGVmcz48L2RlZnM+PHJl/Y3Qgd2lkdGg9IjEyIiBo/ZWlnaHQ9IjEyIiByeD0i/MSIgcng9IjEiIGZpbGw9/InJlZCIvPjwvc3ZnPg==" />
-        <br>JasperReports
-      </td>
+      [![JasperReports](https://img.shields.io/badge/JasperReports-3A3A3A?style=for-the-badge&logo=jaspersoft&logoColor=white)](https://community.jaspersoft.com/)
+
+  <img src="https://img.shields.io/badge/JasperReports-3A3A3A?style=for-the-badge&logo=jaspersoft&logoColor=white" />
+  <br>JasperReports
+</td>
     </tr>
   </table>
 </div>
