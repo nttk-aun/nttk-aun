@@ -118,7 +118,7 @@
 
 <div align="center">
   <h2>😂 Just for Fun</h2>
-  <img src="https://camo.githubusercontent.com/5ad6679a100599b10c6833c4c4eb5e7128b58e66a1f95f77fb87bfc791b4dd24/68747470733a2f2f63756c746f667468657061727479706172726f742e636f6d2f706172726f74732f68642f676974687562706172726f742e676966" alt="Funny Meme" width="600"/>
+  <img src="https://camo.githubusercontent.com/748433fbf833d18f543ad4bb6d8c8c4f7f340c7fe8b9706df131a525049f0c8c/68747470733a2f2f63756c746f667468657061727479706172726f742e636f6d2f706172726f74732f68642f6c6170746f705f706172726f742e676966" alt="Funny Meme" width="600"/>
   <p><em>“Me trying to fix one bug at 3AM 🐛🔧”</em></p>
 </div>
 
