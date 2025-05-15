@@ -115,3 +115,9 @@
     </tr>
   </table>
 </div>
+
+<h2 align="center">😂 Just for Fun</h2>
+
+<div align="center">
+  <img src="https://i.imgflip.com/7zke3y.jpg" alt="Funny Meme" width="400"/>
+</div>
