@@ -116,8 +116,9 @@
   </table>
 </div>
 
-<h2 align="center">😂 Just for Fun</h2>
-
 <div align="center">
-  <img src="https://i.imgflip.com/7zke3y.jpg" alt="Funny Meme" width="400"/>
+  <h2>😂 Just for Fun</h2>
+  <img src="https://camo.githubusercontent.com/5ad6679a100599b10c6833c4c4eb5e7128b58e66a1f95f77fb87bfc791b4dd24/68747470733a2f2f63756c746f667468657061727479706172726f742e636f6d2f706172726f74732f68642f676974687562706172726f742e676966" alt="Funny Meme" width="600"/>
+  <p><em>“Me trying to fix one bug at 3AM 🐛🔧”</em></p>
 </div>
+
