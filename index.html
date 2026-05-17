@@ -551,7 +551,6 @@
     <aside class="cv-panel">
       <section class="cv-section" id="skills">
         <h2>Skills & Tools</h2>
-
         <div class="skill-group">
           <h3>Frontend</h3>
           <div class="tags">
@@ -715,48 +714,55 @@
   </main>
 
   <script>
+    const skillCategories = [
+      {
+        title: 'Frontend',
+        tagClass: 'tag--frontend',
+        items: [
+          'React.js', 'Next.js', 'Angular',
+          'TypeScript', 'jQuery',
+          'Tailwind CSS', 'HTML5', 'CSS3'
+        ]
+      },
+      {
+        title: 'Backend',
+        tagClass: 'tag--backend',
+        items: [
+          'C# .NET Core', 'Java Spring Boot',
+          'Java Spring Roo', 'RESTful APIs'
+        ]
+      },
+      {
+        title: 'Database',
+        tagClass: 'tag--database',
+        items: ['PostgreSQL', 'Oracle DB', 'SQL Server', 'Neon DB']
+      },
+      {
+        title: 'DevOps & Deploy',
+        tagClass: 'tag--devops',
+        items: ['Vercel']
+      },
+      {
+        title: 'Design & Tools',
+        tagClass: 'tag--tools',
+        items: [
+          'Figma', 'Git',
+          'Jasper Reports', 'BIRT Reports',
+          'Cursor AI', 'Claude'
+        ]
+      }
+    ];
+
     const screens = [
+      ['// Frontend', ...skillCategories[0].items, '', 'status: OK'],
+      ['// Backend', ...skillCategories[1].items, '', 'status: BUILD OK'],
+      ['// Database', ...skillCategories[2].items, '', 'query: SELECT 1'],
       [
-        "// Frontend",
-        "React.js",
-        "Next.js",
-        "Angular",
-        "TypeScript",
-        "jQuery",
-        "Tailwind CSS",
-        "HTML5",
-        "CSS3",
-        "",
-        "deploy: vercel --prod"
-      ],
-      [
-        "// Backend",
-        "C# .NET Core",
-        "Java Spring Boot",
-        "Java Spring Roo",
-        "RESTful APIs",
-        "",
-        "status: BUILD OK"
-      ],
-      [
-        "// Database",
-        "PostgreSQL",
-        "Oracle DB",
-        "SQL Server",
-        "Neon DB",
-        "",
-        "query: SELECT 1"
-      ],
-      [
-        "// Design & Tools",
-        "Figma",
-        "Git",
-        "Jasper Reports",
-        "BIRT Reports",
-        "Cursor AI",
-        "Claude",
-        "",
-        "deploy: Vercel..."
+        '// DevOps & Deploy',
+        ...skillCategories[3].items,
+        '',
+        '// Design & Tools',
+        ...skillCategories[4].items
       ]
     ];
 
